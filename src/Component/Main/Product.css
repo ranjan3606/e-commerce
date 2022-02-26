@@ -76,10 +76,10 @@
     }
   }
   /* Loading css End Here */
-  
+
   /* Card section start Here */
   .product{
-    margin-top: 8rem !important;
+    margin-top: 4rem !important;
   }
   .card:hover{
     border-bottom: 1px solid rgb(78, 87, 212);

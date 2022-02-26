@@ -35,7 +35,7 @@ function Product() {
                 ) : (
                     <>
                         <Navbar />
-                        <div className='container text-center mt-5 '>
+                        <div className='container text-center mt-5'>
                             <div className="row justify-content-center product">
                                 {
                                     product.map((data) => {
