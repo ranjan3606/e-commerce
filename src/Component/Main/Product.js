@@ -44,11 +44,12 @@ function Product() {
                                             <div className="card m-2" style={{ width: '18rem' }} key={id}>
                                                 <img src={image} className="img-fluid" alt="..." />
                                                 <div className="card-body text-start">
-                                                    <p className="card-title">{title}</p>
+                                                    <h6 className="card-title">{title}</h6>
                                                     <div className='d-flex price-rating'>
-                                                        <h5 className="card-text ">Rs. {price}</h5>
-                                                        <p className="card-text text-primary">Rating. {rating.rate}</p>
+                                                        <h5 className="card-text price">Rs. {price}</h5>
+                                                        <p className="card-text rating">Rating. {rating.rate}</p>
                                                     </div>
+                                                    <button className='btn mr-auto'>Buy Now</button>
                                                 </div>
                                             </div>
                                         )
