@@ -8,7 +8,7 @@ function Product() {
     const [isLoading, setIsLoading] = useState(false);
 
 
-    useEffect(() => {
+    useEffect((product) => {
         async function fetchData() {
             setIsLoading(true)
             const productsData = await fetch('https://fakestoreapi.com/products')
