@@ -42,11 +42,11 @@ function Product() {
                                         const { id, title, image, price, rating } = data;
                                         return (
                                             <div className="card m-2" style={{ width: '18rem' }} key={id}>
-                                                <img src={image} className="img-fluid" alt="..." />
+                                                <img src={image} className="img-fluid p-4" alt="..." />
                                                 <div className="card-body text-start">
                                                     <h6 className="card-title">{title}</h6>
                                                     <div className='d-flex price-rating'>
-                                                        <h5 className="card-text price">Rs. {price}</h5>
+                                                        <h5 className="card-text price">₹ {price}</h5>
                                                         <p className="card-text rating">Rating. {rating.rate}</p>
                                                     </div>
                                                     <button className='btn mr-auto'>Buy Now</button>
