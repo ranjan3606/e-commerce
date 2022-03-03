@@ -6,6 +6,7 @@ import Home from './Component/Home/Home'
 import Men from './Component/Pages/Men';
 import Women from './Component/Pages/Women';
 import Other from './Component/Pages/Other';
+import ProductAddItems from './Dashboard/FemaileProduct/Product'
 import './App.css';
 
 
@@ -15,7 +16,9 @@ function App() {
     <>
       <Router>
         <Navbar />
+        
         <Routes>
+          <Route path='/dashboard' element={<ProductAddItems />} />
           <Route path="/" excat element={<Home />} />
           <Route path="/men" element={<Men />} />
           <Route path="/women" element={<Women />} />

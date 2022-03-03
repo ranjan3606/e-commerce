@@ -85,18 +85,18 @@
   margin-top: 4rem !important;
 }
 
-.card {
+.cards {
   box-shadow: 0 15px 35px rgba(133, 135, 238, 0.541);
   backdrop-filter: blur(40px);
   transition: all .4s linear;
 }
 
-.card:hover {
+.cards:hover {
   border: 1px solid rgba(78, 87, 212, 0.555);
   transform: translateY(-8px);
 }
 
-img {
+.img {
   height: 18rem !important;
   object-fit: fill;
 }

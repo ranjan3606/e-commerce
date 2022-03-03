@@ -1,14 +1,17 @@
-.top-navbar{
+.top-navbar {
     background-color: rgb(255, 255, 255) !important;
 }
-li > .nav-link{
+
+li>.nav-link {
     color: #000 !important;
 }
-.logo{
+
+.logo {
     width: 150px !important;
     height: 30px !important;
 }
-.center_element{
+
+.center_element {
     margin-top: 1rem;
     width: 100%;
     display: inline-block !important;
@@ -18,4 +21,8 @@ li > .nav-link{
 .center_element li {
     font-size: 1.3rem;
     display: inline-block;
- }
+}
+
+.header_card {
+    height: 400px !important;
+}

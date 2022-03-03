@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import HeaderSlider from '../HeaderSlider/HeaderSlider';
 import './Product.css';
 
 
@@ -32,15 +33,18 @@ function Product() {
                         <div className='load'>g</div>
                     </div>
                 ) : (
-                    <>
-                        <div className='container text-center mt-5'>
+                    <>  
+                        <div className='mt-5'>
+                            <HeaderSlider />
+                        </div>
+                        <div className='container-fluid mt-5'>
                             <div className="row justify-content-center product">
                                 {
                                     product.map((data) => {
                                         const { id, title, image, price, rating } = data;
                                         return (
-                                            <div className="card m-2" style={{ width: '18rem' }} key={id}>
-                                                <img src={image} className="img-fluid p-4" alt="..." />
+                                            <div className="card cards m-2" style={{ width: '18rem' }} key={id}>
+                                                <img src={image} className="img-fluid img p-4" alt="..." />
                                                 <div className="card-body text-start">
                                                     <h6 className="card-title">{title}</h6>
                                                     <div className='d-flex price-rating'>
