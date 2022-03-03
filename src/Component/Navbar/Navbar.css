@@ -9,5 +9,13 @@ li > .nav-link{
     height: 30px !important;
 }
 .center_element{
-    
+    margin-top: 1rem;
+    width: 100%;
+    display: inline-block !important;
+    text-align: center !important;
 }
+
+.center_element li {
+    font-size: 1.3rem;
+    display: inline-block;
+ }
