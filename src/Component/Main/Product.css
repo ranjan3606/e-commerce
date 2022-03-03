@@ -98,6 +98,7 @@
 
 img {
   height: 18rem !important;
+  object-fit: fill;
 }
 .card-title {
   white-space: nowrap;

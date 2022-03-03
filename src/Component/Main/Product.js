@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './Product.css';
-import Navbar from '../Navbar/Navbar';
 
 
 function Product() {
@@ -17,7 +16,7 @@ function Product() {
             setIsLoading(false)
         }
         fetchData(product)
-    },[]);
+    }, []);
 
     return (
         <>
@@ -34,7 +33,6 @@ function Product() {
                     </div>
                 ) : (
                     <>
-                        <Navbar />
                         <div className='container text-center mt-5'>
                             <div className="row justify-content-center product">
                                 {

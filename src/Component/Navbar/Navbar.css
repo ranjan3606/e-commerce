@@ -1,0 +1,13 @@
+.top-navbar{
+    background-color: rgb(255, 255, 255) !important;
+}
+li > .nav-link{
+    color: #000 !important;
+}
+.logo{
+    width: 150px !important;
+    height: 30px !important;
+}
+.center_element{
+    
+}
