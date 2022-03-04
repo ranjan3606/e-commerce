@@ -38,8 +38,8 @@ function Navbar() {
                 </nav>
             </div>
             <div className='text-white d-none d-lg-block d-sm-none mt-5'>
-                <nav className="center_element navbar-expand-lg">
-                    <ul className="navbar-nav">
+                <nav className=" navbar-expand-lg">
+                    <ul className="navbar-nav center_element" >
                         <li className="nav-item active">
                             <Link className="nav-link" to="/men">Men</Link>
                         </li>
